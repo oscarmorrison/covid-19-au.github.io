@@ -52,8 +52,6 @@ export default function OverallTrend(data) {
     let maxValue = parseInt(Math.max(...confirmedData))
     let maxY = Math.ceil(maxValue / 1000) * 1000
 
-    console.log(maxY)
-
 
     return (
         <ReactEcharts style={{ height: "412px" }}
